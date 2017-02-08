@@ -1,0 +1,82 @@
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+video {
+  margin: 0;
+  padding: 0;
+  max-height: 2000px;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #3F51B5;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+}
+section {
+  padding: 100px 0;
+  position: relative;
+  z-index: 2;
+}
+nav {
+  z-index: 2;
+}
+
+.bg-primary {
+  background-color: #203C38;
+}
+.bg-secondary {
+  background-color: #546431;
+}
+.divider {
+  margin-top: 1000px;
+}
+.main-header {
+  color: white;
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+  color: white!important;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+.row{
+  margin: 0;
+  padding: 0;
+}
+.gradient-bg {
+  background: linear-gradient(to bottom, #e0e978 , #3a553f);
+}
