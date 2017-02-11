@@ -40,7 +40,7 @@ section {
 }
 nav {
   z-index: 2;
-}
+ }
 
 .bg-primary {
   background-color: #203C38;
@@ -62,12 +62,6 @@ nav {
   max-width: 720px;
   text-align: center;
   color: white!important;
-}
-.navbar-default {
-  background-color: white;
-}
-.navbar li{
-  margin: 0 20px;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -95,14 +89,81 @@ nav {
   margin-top: -15px;
 }
 
+/*
+
+  NAVBAR
+
+*/
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(32, 60, 56, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(248, 248, 248, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(32, 60, 56, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(137, 151, 94, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*
+
+  MEDIA QUERIES
+
+*/
+
 @media (min-width: 768px){
-    .navbar-nav{
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-        float:none;
+
+    .navbar-nav li a {
+      padding-top: 20px;
+      line-height: 50px;
+    }
+    .navbar-header a {
+      padding:0 20px;
+      line-height: 80px;
     }
 
+    #brand-logo1 {
+        padding-top: 10px;
+    }
     #brand-logo {
       display: none;
     }
@@ -114,6 +175,10 @@ nav {
   #brand-logo1 {
     display: none;
     margin-left: 100px;
+  }
+
+  .navbar-nav li a {
+      padding: 10px 10px;
   }
 
 }

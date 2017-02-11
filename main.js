@@ -5,7 +5,7 @@ $('ul.nav li.dropdown').hover(function() {
 });
 
 // Offset for Main Navigation
-$('#mainNav').affix({
+$('#custom-bootstrap-menu').affix({
     offset: {
         top: 100
     }
