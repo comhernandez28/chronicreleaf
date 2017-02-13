@@ -14,9 +14,16 @@ body {
 }
 hr {
   border: 0;
-  height: 1px;
+  height: 2px;
   background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background-image: linear-gradient(to right, #203C38, #546431, #203C38);
+}
+footer {
+  position: relative;
+  z-index: 2;
+  background-color: #F8F8F8;
+  padding: 1px 0;
+  color black;
 }
 video {
   margin: 0;
@@ -61,7 +68,6 @@ nav {
   margin: 0 auto;
   max-width: 720px;
   text-align: center;
-  color: white!important;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -134,15 +140,9 @@ nav {
     background-color: #888;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
 
-.navbar .navbar-collapse {
-  text-align: center;
-}
+
+
 
 /*
 
@@ -160,6 +160,14 @@ nav {
       padding:0 20px;
       line-height: 80px;
     }
+    .navbar  {
+      text-align: center;
+    }
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
 
     #brand-logo1 {
         padding-top: 10px;
@@ -168,13 +176,13 @@ nav {
       display: none;
     }
 
+
 }
 
 @media (max-width: 768px){
 
   #brand-logo1 {
-    display: none;
-    margin-left: 100px;
+    display: block;
   }
 
   .navbar-nav li a {
