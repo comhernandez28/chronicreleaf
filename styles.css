@@ -54,6 +54,9 @@ nav {
   background-color: #546431;
   color: white;
 }
+.bg-white-opaque {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 .divider {
   margin-top: 1000px;
 }
@@ -97,6 +100,7 @@ nav {
   margin: 0 auto;
   padding: 0;
 }
+
 .navbar-toggle {
   padding: 25px;
 }
