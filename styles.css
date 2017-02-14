@@ -45,6 +45,9 @@ section {
 nav {
   z-index: 2;
  }
+ h1 {
+   font-size: 7em;
+ }
 
 .bg-primary {
   background-color: #203C38;
@@ -63,7 +66,7 @@ nav {
 .main-header {
   color: white;
   position: relative;
-  top: 30%;
+  top: 40%;
   z-index: 2;
   margin: 0 auto;
   max-width: 720px;
@@ -86,6 +89,9 @@ nav {
   margin: 0;
   padding: 0;
 }
+.service-box {
+  padding-bottom: 30px;
+}
 .gradient-bg {
   background: linear-gradient(to bottom, #CBE4BD , #203C38); /* linear-gradient(to bottom, #e0e978 , #3a553f); */
   color: black;
@@ -96,13 +102,10 @@ nav {
   NAVBAR
 
 */
-.navbar-brand {
-  margin: 0 auto;
-  padding: 0;
-}
 
 .navbar-toggle {
-  padding: 25px;
+  margin-top: 70px;
+  padding: 30px;
 }
 
 
