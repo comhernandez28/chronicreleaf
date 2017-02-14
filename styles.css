@@ -7,6 +7,7 @@ a,
 video {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 html,
 body {
@@ -35,10 +36,6 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #3F51B5;
-}
-a:hover,
-a:focus {
-  color: #eb3812;
 }
 section {
   padding: 100px 0;
@@ -91,15 +88,21 @@ nav {
   color: black;
 }
 
-#brand-logo, #brand-logo1 {
-  margin-top: -15px;
-}
-
 /*
 
   NAVBAR
 
 */
+.navbar-brand {
+  margin: 0 auto;
+  padding: 0;
+}
+.navbar-toggle {
+  padding: 25px;
+}
+
+
+
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(32, 60, 56, 1);
@@ -140,53 +143,30 @@ nav {
     background-color: #888;
 }
 
-
-
-
+body {
+	padding-top:70px;
+}
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
 
 /*
 
   MEDIA QUERIES
 
 */
-
-@media (min-width: 768px){
-
-    .navbar-nav li a {
-      padding-top: 20px;
-      line-height: 50px;
-    }
-    .navbar-header a {
-      padding:0 20px;
-      line-height: 80px;
-    }
-    .navbar  {
-      text-align: center;
-    }
-    .navbar .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
-    }
-
-    #brand-logo1 {
-        padding-top: 10px;
-    }
-    #brand-logo {
-      display: none;
-    }
-
-
-}
-
-@media (max-width: 768px){
-
-  #brand-logo1 {
-    display: block;
-  }
-
-  .navbar-nav li a {
-      padding: 10px 10px;
-  }
-
-}
