@@ -241,3 +241,15 @@ body {
   MEDIA QUERIES
 
 */
+
+@media only screen and (max-width : 767px) {
+  .concentrates {
+    background-image: url("images/concentratessmall.jpeg");
+    background-attachment: scroll;
+  }
+
+  .edibles {
+    background-image: url("images/ediblessmall.jpeg");
+    background-attachment: scroll;
+  }
+}
