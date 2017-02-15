@@ -1,3 +1,9 @@
+/*
+
+  RESETS
+
+*/
+
 html,
 body,
 div,
@@ -19,6 +25,14 @@ hr {
   background: #333;
   background-image: linear-gradient(to right, #203C38, #546431, #203C38);
 }
+
+
+/*
+
+  HTML TAGS
+
+*/
+
 footer {
   position: relative;
   z-index: 2;
@@ -45,9 +59,12 @@ section {
 nav {
   z-index: 2;
  }
- h1 {
-   font-size: 5em;
- }
+
+ /*
+
+   MAIN CLASSES
+
+ */
 
 .bg-primary {
   background-color: #203C38;
@@ -66,11 +83,15 @@ nav {
 .main-header {
   color: white;
   position: relative;
-  top: 40%;
+  top: 25%;
   z-index: 2;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 1000px;
   text-align: center;
+  font-size: 5em;
+}
+.main-header h1 {
+  font-size: 1em;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -103,6 +124,7 @@ nav {
   position: relative;
   display: block;
   max-width: 610px;
+  max-height: 300px;
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -156,6 +178,17 @@ nav {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+.social-header a {
+  margin: 0 10px 0 10px;
+}
+.home-social {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+.home-social a {
+  margin: 0 30px;
 }
 
 /*
@@ -218,7 +251,7 @@ body {
 	padding-top:70px;
 }
 .navbar-header {
-  float: none;
+  float:  none;
 }
 .navbar-toggle {
   display: block;
@@ -251,5 +284,8 @@ body {
   .edibles {
     background-image: url("images/ediblessmall.jpeg");
     background-attachment: scroll;
+  }
+  .home-social img {
+    margin: 0 20px;
   }
 }
