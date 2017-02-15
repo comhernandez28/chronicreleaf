@@ -4,7 +4,3 @@ $('#custom-bootstrap-menu').affix({
         top: 100
     }
 })
-
-document.addEventListener('gesturestart', function (e) {
-    e.preventDefault();
-});
