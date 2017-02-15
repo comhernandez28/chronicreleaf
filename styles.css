@@ -102,7 +102,7 @@ nav {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 610px;
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -148,6 +148,14 @@ nav {
 .concentrates {
   background-image: url("images/concentrates.jpg");
   background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.edibles {
+  background-image: url("images/edibles.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*
