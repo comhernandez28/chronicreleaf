@@ -142,6 +142,13 @@ nav {
 .portfolio-box:focus {
   outline: none;
 }
+.full-height {
+  height: 83vh;
+}
+.concentrates {
+  background-image: url("images/concentrates.jpg");
+  background-position: center;
+}
 
 /*
 
@@ -150,16 +157,19 @@ nav {
 */
 
 .navbar-toggle {
-  margin-top: 70px;
-  padding: 30px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.navbar-toggle .icon-bar {
+    border:1px solid #353535;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(32, 60, 56, 1);
+    color: rgba(32, 60, 56, 0.5);
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(248, 248, 248, 1);
+    background-color: rgba(255, 255, 255, 0.7);
     border-width: 0px;
     border-radius: 0px;
 }
@@ -191,6 +201,9 @@ nav {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #888;
+}
+#brand-logo {
+  margin-bottom: 20px;
 }
 
 body {
