@@ -81,6 +81,9 @@ nav {
 .divider {
   margin-top: 800px;
 }
+.no-padding {
+  padding: 0;
+}
 .main-header {
   color: white;
   position: relative;
@@ -98,9 +101,6 @@ nav {
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-.no-padding {
-  padding: 0;
 }
 .video {
   position: fixed;
@@ -263,6 +263,9 @@ nav {
 #brand-logo {
   margin-bottom: 20px;
 }
+#mobile-hero {
+  display: none;
+}
 
 body {
 	padding-top:70px;
@@ -293,14 +296,50 @@ body {
 */
 
 @media only screen and (max-width : 767px) {
+
+  video {
+    display: none;
+  }
+
+  #mobile-hero {
+    display: block;
+    background-image: url("images/bubbastrain.jpg");
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background-position: center;
+  }
+
   .concentrates {
     background-image: url("images/concentratessmall.jpeg");
     background-attachment: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
+  .concentrates h1{
+    font-size: 2em;
+  }
+  .concentrates p{
+    font-size: 1em;
+  }
   .edibles {
     background-image: url("images/ediblessmall.jpeg");
     background-attachment: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .edibles h1{
+    font-size: 2em;
+    color: white;
+  }
+  .edibles p{
+    font-size: 1em;
+    color: white;
   }
   .home-social img {
     margin: 0 20px;
