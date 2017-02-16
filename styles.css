@@ -79,20 +79,22 @@ nav {
   background-color: rgba(255, 255, 255, 0.8);
 }
 .divider {
-  margin-top: 1000px;
+  margin-top: 800px;
 }
 .main-header {
   color: white;
   position: relative;
-  top: 25%;
+  top: 35%;
   z-index: 2;
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
-  font-size: 5em;
 }
 .main-header h1 {
-  font-size: 1em;
+  font-size: 4em;
+}
+.main-header p {
+  font-size: 2em;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -174,11 +176,25 @@ nav {
   background-size: cover;
   background-attachment: fixed;
 }
+.concentrates h1{
+  font-size: 4em;
+}
+.concentrates p{
+  font-size: 2em;
+}
 .edibles {
   background-image: url("images/edibles.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+.edibles h1{
+  font-size: 4em;
+  color: white;
+}
+.edibles p{
+  font-size: 2em;
+  color: white;
 }
 .social-header a {
   margin: 0 10px 0 10px;
