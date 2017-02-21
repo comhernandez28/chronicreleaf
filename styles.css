@@ -39,7 +39,7 @@ footer {
   z-index: 2;
   background-color: #F8F8F8;
   padding: 1px 0;
-  color black;
+  color: black;
 }
 video {
   margin: 0;
@@ -49,6 +49,7 @@ video {
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
   transition: all 0.35s;
   color: #3F51B5;
 }
@@ -144,6 +145,7 @@ nav {
   height: 100%;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
   transition: all 0.35s;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -163,9 +165,6 @@ nav {
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
-.portfolio-box:focus {
-  outline: none;
 }
 .full-height {
   height: 83vh;
