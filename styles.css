@@ -129,8 +129,8 @@ nav {
   max-width: 610px;
   max-height: 300px;
   margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -315,6 +315,12 @@ body {
     background-position: center;
   }
 
+  .main-header {
+    top: 18%;
+  }
+  .divider {
+    margin-top: 400px;
+  }
   .concentrates {
     background-image: url("images/concentratessmall.jpeg");
     background-attachment: scroll;
