@@ -177,7 +177,13 @@ nav {
   opacity: 1;
 }
 .full-height {
-  height: 83vh;
+  height: 84vh;
+}
+.full-height-browser {
+  height: 100vh;
+}
+.clearnavbar {
+  margin-top: 96px;
 }
 .concentrates {
   background-image: url("images/concentrates.jpg");
@@ -192,7 +198,7 @@ nav {
   font-size: 2em;
 }
 .edibles {
-  background-image: url("images/edibles.jpg");
+  background-image: url("images/weedbrownies.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
