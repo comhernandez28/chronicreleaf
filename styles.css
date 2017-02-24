@@ -76,6 +76,10 @@ nav {
   background-color: #546431;
   color: white;
 }
+.bg-tertiary {
+  background-color: #353535;
+  color: white;
+}
 .bg-white-opaque {
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -162,6 +166,7 @@ nav {
   position: relative;
   display: block;
   margin: 0 auto;
+
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -243,6 +248,11 @@ nav {
 }
 .home-social a {
   margin: 0 30px;
+}
+.home-social img {
+  background-color: #546431;
+  border-radius: 100px;
+  border: 10px solid #546431;
 }
 
 /*
@@ -359,7 +369,7 @@ body {
     margin-top: 400px;
   }
   .concentrates {
-    background-image: url("images/concentratessmall.jpeg");
+    background-image: url("images/concentratessmall.jpg");
     background-attachment: scroll;
     padding-left: 20px;
     padding-right: 20px;
@@ -385,6 +395,6 @@ body {
     color: white;
   }
   .home-social img {
-    margin: 0 20px;
+    margin: 0px;
   }
 }
