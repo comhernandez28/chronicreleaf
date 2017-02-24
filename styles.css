@@ -266,8 +266,26 @@ nav {
   padding: 20px;
 }
 .navbar-toggle .icon-bar {
-    border:1px solid #353535;
+    border: 1px solid #353535;
 }
+
+/*
+
+  NAVBAR WHEN SCROLLED DOWN
+
+*/
+
+.navbar-scrolld {
+  margin-top: 10px;
+  padding: 10px;
+  height: 50px;
+}
+.brand-logo-scrolld {
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(32, 60, 56, 0.5);
@@ -307,7 +325,7 @@ nav {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #888;
 }
-#brand-logo {
+.brand-logo {
   margin-bottom: 20px;
 }
 #mobile-hero {
