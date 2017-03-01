@@ -259,10 +259,11 @@ nav {
 }
 .button {
   color: black;
+  background-color: green;
 }
-.form-control {
-  width: 300px;
-
+.button:hover {
+  color: green;
+  background-color: #546431;
 }
 
 /*
