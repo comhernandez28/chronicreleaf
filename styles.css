@@ -258,12 +258,12 @@ nav {
   border: 10px solid #546431;
 }
 .button {
-  color: black;
-  background-color: green;
+  color: black!important;
+  background-color: green!important;
 }
 .button:hover {
-  color: green;
-  background-color: #546431;
+  color: green!important;
+  background-color: #546431!important;
 }
 
 /*
