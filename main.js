@@ -11,7 +11,6 @@ function initMap() {
   var chroniclb = {lat: 33.785501, lng: -118.215815};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
-    zoomControl: false,
     scrollwheel: false,
     center: chroniclb
   });
