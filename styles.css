@@ -261,12 +261,12 @@ nav {
   border: 10px solid #546431;
 }
 .button {
-  color: black;
-  background-color: green;
+  color: black!important;
+  background-color: #4CAF50!important;
 }
 .button:hover {
-  color: green;
-  background-color: #546431;
+  color: white!important;
+  background-color: #1B5E20!important;
 }
 .contact-box {
 
