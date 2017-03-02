@@ -5,19 +5,19 @@ $('#custom-bootstrap-menu').affix({
     }
 })
 
-//MAP
+//GOOGLE MAP
 
 function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: long beach
-        });
-        var marker = new google.maps.Marker({
-          position: long beach,
-          map: map
-        });
-      }
+  var chroniclb = {lat: 33.785501, lng: -118.215815};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: chroniclb
+  });
+  var marker = new google.maps.Marker({
+    position: chroniclb,
+    map: map
+  });
+}
 
 //SHRINK NAVBAR
 
