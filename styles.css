@@ -266,6 +266,12 @@ nav {
   background-color: #546431!important;
 }
 
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
+ 
 /*
 
   NAVBAR
