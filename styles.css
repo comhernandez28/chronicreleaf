@@ -92,6 +92,9 @@ nav {
 .divider {
   margin-top: 800px;
 }
+.lg-section {
+  padding: 100px 0 200px 0;
+}
 .nav-divider {
 
 }
@@ -265,13 +268,10 @@ nav {
   color: green!important;
   background-color: #546431!important;
 }
+.contact-box {
+  
+}
 
-
-#map {
-  height: 400px;
-  width: 100%;
- }
- 
 /*
 
   NAVBAR
@@ -437,5 +437,11 @@ body {
   }
   .home-social img {
     margin: 0px;
+  }
+  .contact-box {
+    padding: 50px 0 50px 0;
+  }
+  .lg-section {
+    padding: 50px 0 50px 0;
   }
 }
