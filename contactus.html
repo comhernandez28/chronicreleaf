@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body class="bg-pattern">
 
 
   <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top">
@@ -56,15 +56,15 @@
           <li class="dropdown">
             <a href="cannabisinfo.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cannabis Info <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="cannabisinfo.html#recreational" data-target="#recreational">Recreational</a></li>
-              <li><a href="cannabisinfo.html#medical" data-target="#medical">Medical</a></li>
-              <li><a href="cannabisinfo.html#ourflower" data-target="#ourflower">Our Flower</a></li>
-              <li><a href="cannabisinfo.html#ouredibles" data-target="#ouredibles">Our Edibles</a></li>
-              <li><a href="cannabisinfo.html#ourconcentrates" data-target="#ourconcentrates">Our Concentrates</a></li>
+              <li><a href="recreational.html">Recreational</a></li>
+              <li><a href="medical.html">Medical</a></li>
+              <li><a href="ourflower.html">Our Flower</a></li>
+              <li><a href="ouredibles.html">Our Edibles</a></li>
+              <li><a href="ourconcentrates.html">Our Concentrates</a></li>
             </ul>
           </li>
           <li><a href="ourclinic.html">Our Clinic</a></li>
-          <li><a href="faqs.html">FAQ's</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="merchandise.html">Merchandise</a></li>
           <li><a href="contactus.html">Contact Us</a></li>
         </ul>
@@ -72,8 +72,28 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-<div id="map" class="text-center full-height bg-pattern clearnavbar">
-  <h1 class="main-header-black">Under Construction</h1>
+<div class="row">
+  <div id="map" class="text-center full-height bg-pattern clearnavbar col-md-8">
+    <h1 class="main-header-black">Google Maps Currently Unavailable</h1>
+  </div>
+
+  <div class="text-center full-height bg-pattern clearnavbar col-md-4">
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	     <div class="row form-group">
+		     <label for="name">Your name: </label><br />
+		     <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	     </div>
+	     <div class="row">
+		      <label for="email">Your email: </label><br />
+		      <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	     </div>
+	     <div class="row">
+		      <label for="message">Your message: </label><br />
+		      <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	     </div>
+	        <input id="submit_button" type="submit" value="Send email" class="btn btn-default" />
+    </form>
+  </div>
 </div>
 
 <section class="bg-primary text-center lg-section">

@@ -81,7 +81,8 @@ nav {
   color: white;
 }
 .bg-white-opaque {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 40px;
 }
 .bg-white {
   background-color: white;
@@ -89,6 +90,11 @@ nav {
 .bg-pattern {
   background-image: url("images/chronicbg5.jpg");
 }
+.bg-opaque {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 40px;
+  }
 .divider {
   margin-top: 800px;
 }
@@ -130,7 +136,7 @@ nav {
 .main-header-black {
   color: black;
   position: relative;
-  top: 35%;
+  top: 25%;
   z-index: 2;
   margin: 0 auto;
   max-width: 1000px;
@@ -161,6 +167,11 @@ nav {
 }
 .service-box {
   padding: 50px 0 50px 0;
+  margin: 50px 0 50px 0;
+  color: black;
+}
+.strain-box {
+  padding: 50px 10px 50px 10px;
   margin: 50px 0 50px 0;
   color: black;
 }
@@ -238,11 +249,11 @@ nav {
 }
 .edibles h1{
   font-size: 4em;
-  color: white;
+  color: black;
 }
 .edibles p{
   font-size: 2em;
-  color: white;
+  color: black;
 }
 .social-header a {
   margin: 0 10px 0 10px;
@@ -354,6 +365,9 @@ nav {
 #mobile-hero {
   display: none;
 }
+#contact_form {
+  padding-top: 200px;
+}
 
 body {
 	padding-top:70px;
@@ -402,6 +416,9 @@ body {
     transform: translate(-50%, -50%);
     background-position: center;
   }
+  #contact_form {
+    padding-top: 100px;
+  }
 
   .main-header {
     top: 18%;
@@ -429,11 +446,9 @@ body {
   }
   .edibles h1{
     font-size: 2em;
-    color: white;
   }
   .edibles p{
     font-size: 1em;
-    color: white;
   }
   .home-social img {
     margin: 0px;
