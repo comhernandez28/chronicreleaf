@@ -1,3 +1,7 @@
+$(document).ready(function(){
+   $.ageCheck();
+});
+
 // Offset for Main Navigation
 $('#custom-bootstrap-menu').affix({
     offset: {
@@ -208,5 +212,7 @@ $(function(){
         });
     };
 }(jQuery));
+
+
 
 //end of plugin
