@@ -18,19 +18,6 @@
     <link rel="shortcut icon" href="images/chronic.ico" type="image/x-icon">
     <link href="styles.css" rel="stylesheet">
     <link href="agecheck.css" rel="stylesheet" />
-    <script>
-            $(document).ready(function(){
-                var minAge = $('select').val();
-                $('select').on('change', function(){
-                   minAge = $(this).val();
-                });
-                $('button').on('click', function(){
-                    sessionStorage.clear();
-                    $.ageCheck({minAge: minAge});
-                });
-                $.ageCheck({minAge: minAge});
-            });
-    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
