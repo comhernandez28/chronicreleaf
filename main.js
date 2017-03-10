@@ -157,7 +157,7 @@ $(function(){
                 }
             },
             handleSuccess : function(){
-                var successMsg = '<h3>Success!</h3><p>You are now being redirected back to the application...</p>';
+                var successMsg = '<h3>Success!</h3><p>You are now being redirected back to the website...</p>';
                 $('.ac-container').html(successMsg);
                 setTimeout(function(){
                     $('.ac-container').animate({'top':'-350px'},200, function(){
