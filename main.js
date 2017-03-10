@@ -64,7 +64,7 @@ $(function(){
             minAge : 21,
             redirectTo : '',
             redirectOnFail : '',
-            title : 'Age Verification',
+            title : 'Welcome to Chronic Releaf',
             copy : 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue:'
         }, options);
 

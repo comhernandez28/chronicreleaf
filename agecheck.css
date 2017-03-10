@@ -98,14 +98,14 @@
     font-size: 12px;
     line-height: 1.5;
     width: 84px;
-    background:#8EB908;
+    background: #546431;
     color:#fff;
     text-shadow:1px 1px 0 #84A51D;
 
 }
 .ac-container button:hover{
     box-sizing: border-box;
-    background:#82A711;
+    background: #89975E;
 }
 .ac-container .errors  {
     box-sizing: border-box;
